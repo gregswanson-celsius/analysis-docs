@@ -15,3 +15,13 @@
 |returning_user|previous loan customer opens new loan by date| Tomer Weiss, Retail Lending PM|
 |inbound_wires| total wires inbound by date| Greg Swanson, BA, Lending| 
 |outbound_wires| total wires outbound by date| Greg Swanson, BA, Lending| 
+|-------------------------------|
+## lost_collateral
+| metric | Description | Source
+| ----------- | ----------- | --------- | 
+|lost_collateral|loss of US dollar value from contract collateral due to market downturn|George Rajah, Sys Infra Ass.|. 
+adds all client balances(custody,yield,withhold), subtracts locked collateral(could be 1 or 3), turn that into absolute value.   
+loan: 547
+look `for available_collateral_balance`
+
+|||
